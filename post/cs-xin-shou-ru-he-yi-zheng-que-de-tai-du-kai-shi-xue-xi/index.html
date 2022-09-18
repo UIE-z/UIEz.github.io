@@ -1,0 +1,270 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>CS新手如何以正确的态度开始学习 | UIEz</title>
+
+<link rel="shortcut icon" href="https://uiez-github-io.pages.dev/favicon.ico?v=1663515094881">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://uiez-github-io.pages.dev/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            UIEz
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1663515094881"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    CS新手如何以正确的态度开始学习
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2021-07-27 ·
+                    </time>
+                    
+                        <a href="https://uiez-github-io.pages.dev/tag/nYVtTqXH6/" class="post-tags">
+                            # 摘录
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <p><a href="https://zhuanlan.zhihu.com/p/38493675">CS新手如何以正确的态度开始学习-vczh-知乎</a></p>
+<h1 id="前言">前言</h1>
+<p>填志愿的人应该差不多要点确定按钮了。反正既然你们已经入了坑，那我就告诉你们应该如何开始。美妙的幻想破灭得越早，对你越有帮助。那些单个程序已经倒了一万行的新手，如果你觉得自己的学习习惯不好的话，也可以借此机会互相切磋一下。写这篇文章的契机是我在开发GacUI的时候，被迫去读RTF2007的文档。这天杀的文档一共有300页——不过其实也不算很长，只是我已经有几年没有干过这种事情了。把程序写出来的时候，仿佛又有一种回到过去的感觉。</p>
+<p>端正态度这个问题其实是这几年才出现的。在我刚开始学习编程的时候，应该是2000年，大家普遍的态度就是，有书就看，有电脑就借，光是有已经很了不起了，应该投入所有的精力在这上面才能对得起这个机会。当然现在情况已经不是这样了。而且人们被周遭的生活所培养出来的结果，就是越来越丧失耐心。然而学习CS最不能缺的就是耐心。</p>
+<p>学习CS的日常是什么呢？大家不要觉得是玩游戏，也不是花里胡巧地摆弄界面，其实每天会发生的事情，就是坐在电脑前一整天，然后看书打字。这就是为什么说学习CS最重要的就是耐心，因为没有耐心，你就会想从电脑前离开。你一离开干别的事情一爽，你的时间就流失了，学习效率大幅下降。所以学得最快的那些人，通常就是觉得坐在电脑前写代码是最爽的，自然地不会去分心。当然学得快不意味着你就学的好，你还要坚持下去，连续20年都觉得写代码是最爽的，根本就不需要担心什么找工作，说不定你已经在创造工作岗位了（当然这不一定是指创业）。</p>
+<p>一般来讲，“学习”要么就是看教程，要么就是看著作。现在的教程都是视频，不过我个人不是很推荐，因为手把手的东西看了会上瘾，这对你以后的成长很不利。我建议去看那些以书本形式出现的教程。你看书自然会遇到很多问题，譬如说作者可能讲漏了其中一个动作，或者用的软件版本跟你不一样等等。这些纯粹的操作上的问题，你要习惯于需要自己琢磨的状态。虽然这样一开始会慢一点，不过学习编程是以10年为单位的，晚个10天又有什么所谓呢。</p>
+<p>当然做事情不能矫枉过正，觉得既然慢慢来无所谓就去啃著作，这样也不太好。因为你可能会因为缺乏一些基本的知识导致你著作肯不下去。但是你又不可能不啃著作，因为这些中级入门材料时十分缺乏的。其实在早期世界范围内根本就不缺乏这样的材料，只是随着互联网的发达，人们不知道为什么就喜欢互相喷。你稍微写点什么，就有人抓住你辫子不放，仿佛把你比下去他就会成功一样。当然喷人也不是不行，只要你有理有据地喷，同时文明地表达你的观点，就像<br>
+@Milo Yip<br>
+，没问题。为了区别，我把喷起来不像叶先生那么友好有道理的都叫“恶意喷人”。</p>
+<p>跨越了初学者阶段进入下一个阶段的人是最多的（这里我一般把那些未来会放弃的初学者不当人看（逃），所以这个程度的文章自然也需求量最大。但是处于这个阶段的人，特别喜欢恶意互喷，所以搞到大家都不是很想分享自己的见解了。这就是为什么到了现在你会发现，这些文章找起来不像以前那么好找了。在200x年的时候，大家看对方不对，都是讲道理吵架的。现在人们吵架都是因为看你不爽而不是看你不对，所以动不动就到了你的私生活。我也很同情今年开始学CS的人。当然我并不是在讲人变坏了，而是因为科技的发达，能上网的人平均素质变低了，这是无法避免的（逃。就想买北京的房子过了2010年就变得很难一样。</p>
+<h1 id="正文">正文</h1>
+<p>因为看教程实在是太简单没什么好说的，本文重点还是在教你怎么啃著作，这都是出于我自己的经验。这篇文章的一个前提，就是你坐得住。我觉得某种程度上我很幸运，在我中学的时候，不知道血栓的形成以及杀人机制，让我久坐在电脑前毫无负罪感，幸好年轻不会出事。现在大家都能上网了，就算你坐得住，你最好也隔一个小时，上来打一套太极拳，然后回去。反正写代码总是要思考的吗，打太极拳的时候也可以思考。不要干别的事情分心，除了吃饭拉屎睡觉。</p>
+<p>只有坐得住才能啃著作，而怎样才能坐得住，一个最简单的办法就是切断跟外界的联系。你可以找一本书，然后去一个没有网络的地方，手机数据disable，然后开始看。如果你需要查资料，你可以去图书馆上网，反正超级便宜。总之要让你没办法access到各种娱乐信息。这是在你们还坐不住的时候的一种锻炼自己的方法。</p>
+<p>在这里提醒一下，学CS最重要的还是写代码，你不会写代码懂得再多也没有用。所以你需要花更多的时间来练习，我一般推荐是10倍。你看书的时间加起来长达一年，然后写10年代码，然后你就出山了，非常科学。</p>
+<p>啃著作会有一个常见问题，就是你不知道他在说什么。这是由于著作本身的特点决定的。他不是教程，所以书里面的信息，是不排序的，他会假设你什么都懂一点。当然只要花时间你肯定都能搞定。所以在这里我介绍三个常用方法。</p>
+<h1 id="一-看好几遍">一、看好几遍</h1>
+<p>这个方法是最简单粗暴的。假设一本著作的前置知识你已经都会了，这个时候来看著作。著作的章节之间也是有依赖关系的，但是有些时候这些依赖关系跟学习关系是不一致的。所以你第一篇看完可能云里雾里，知道了一些新概念，知道了他们的关系，但是就是不明白。这个时候你看第二遍，因为至少你已经知道每一个词是什么意思了，你就会知道更多的东西。一般看个两三遍我觉得你也懂得七七八八了。以后你就把这本书的目录背下来，需要什么你再去查就好了。</p>
+<p>工具书也是同一个道理。很多人都说，著作需要的时候去查就好了，这是不对的。因为你如果不去看，大部分时候出现的情况，是你根本不知道要去查什么东西，关键字都不会组织，什么都看不到。所以还是要看。反正学习编程是以10年为单位的，多看几本书又有什么所谓呢，又不是要赶着去投胎。著作看个七成熟，概念你都明白了，细节记不住没问题以后再查。要是你连概念都不明白，你什么都查不到。</p>
+<p>我第一次明白这个事情，是我大概初三的时候。以前看过我博客的人估计知道，我是从一本图形学的书开始学习Visual Basic的。这本书很厉害，他定位的读者就是傻逼，所以连数学也会教你，现在都没有这么具有人文关怀的著作了。于是我看了一年，同时开始学习VB的语法和控件的知识，勉强可以做一些简单的图像处理，譬如说搞个凹凸效果啊，扫描个椭圆什么的。但是VB的性能很成问题，因为debug的时候不像其他语言，VB会选择把你的代码编译成P-Code然后模拟执行，连个exe都不产生。你不仅不优化，还要解释执行，性能低到不行。所以尽管exe速度还可以，但是调试的时候心情很糟糕。</p>
+<p>另一个原因是，没什么人会真的用VB来搞这个，大家都使用C++在搞。我当时也想着干脆学个C++吧。学成之后，要是不能把人家的C++代码抄成VB，那我就去用C++好了。虽然日后跳槽去了Delphi，不过C++的确是在那个时候看的。那个时候大约是2002年左右，C++03都还不知道在哪里，看的是C++98的内容。</p>
+<p>于是我就去书店找书，看到了一本Visual C++ 5.0 语法手册，上面印着个MSDN的logo，觉得很专业，我就买了。后来才知道这本书是直接从MSDN上打印出来的（mmp）。如果你们也去看MSDN的C++语法手册，就会发现它有个特点，就是他是按语法结构来描述C++的。这也就是说，当他一开始讲到表达式的时候，他已经在告诉你遇到模板的时候各种奇怪的表达式要怎么写了。我那个时候类是啥都不太清楚，怎么可能看的懂这个呢。所以第一遍看了几个月云里雾里，于是又看了第二遍，总算知道点东西了。后来又看了第三遍，终于把基本概念都搞明白，会用C++的语法来写一些简单的程序了。上了大学之后我又通过几本书学习了C++的各种奇技淫巧和细节，不过这些都是题外话了。</p>
+<p>这个事情告诉我们，只要你掌握了一门编程语言，哪怕是C++，语法手册看三遍，你也可以学会。工具书著作没什么好怕的，你需要的只有耐心。</p>
+<h1 id="二-搭配各种导论文章看">二、搭配各种导论文章看</h1>
+<p>当你看一本著作只是为了明白其中的一点点东西，而不是真的想去学会全部的时候，你需要的就是完全不同的阅读方法。就像最近GacUI要支持富文本复制到剪贴板里面变成RTF好让Word和Wordpad粘贴一样，找来找去都没什么靠谱的文章，估计新手们连RTF是啥都不知道。RTF作为一种通用格式，早期WPS和Word都支持。WPS之所以后来跪了，就是因为他所见即所得的体验比起Word实在是差的太他妈远了。所以在WPS和Word都有盗版的情况下，眼睛雪亮的人民选择了Word。不要相信什么微软靠盗版占有市场的这种胡说八道的东西，那个时候不管是谁家的软件都有盗版。价格都是0，谁赢了真的是质量取胜。不像现在，为了成功做一个人，你还得考虑一下软件成本。</p>
+<p>GacUI的富文本是很基本的，但是RTF2007已经发展到了几乎可以表达Word的所有内容的状态了，复杂到连微软也没有一款软件是可以编辑100%的RTF内容的。你们如果也去看一下那个文档，就可以知道他妈的control word的数量之多，念一遍都可以让便秘的人从厕所坐到拉完屎。显然我需要的只是1‰，那怎么办呢？</p>
+<p>这个时候我当然不可能用看两遍RTF2007的方法来完成这个事情，我还得找一些其他资料。资料的来源有很多，譬如说我可以用Wordpad写一点简单的东西保存一下用记事本打开看看长什么样子，心中有个概念。然后随便遍几个问题来看看网上的人是如何解答的，对RTF有一个初步的了解。有了这些概念之后，我再去看RTF2007的文档，遇到一个章节就可以扫一眼判断到底这事不是我要的，然后迅速跳过所有我不需要的内容。这样速度就很快。我大概就花了两个小时吧，就把1‰的内容从RTF2007里挑出来了，最后试验成功，就可以开始写代码了。</p>
+<p>当然，大部分著作你是不能这么看的，因为学习编程不能太有目的性，在刚开始你不能挑说你想学什么不想学什么。编程涵盖的内容有很多，在你作为一个新手的时候，学习所有的知识都是为了你以后成为某一方面的专家而打下基础。哪怕你的梦想是去画网站，你也不可能完全不碰后端的，不然你到时候就会在protocol如何设计的角度跟同时吵起来。这就像PM经常搞出一些不切实际的需求给码农做一样，会被鄙视的。所以你什么都得学，不用学的太深入，只要能够写个10000行的、复杂点的程序就好了。</p>
+<p>只有在你试图去解决一个特别狭窄的问题的时候，你才可以用这种方法来读著作，因为你知道估计以后再也用不上了，就像我生成RTF格式的字符串一样，我很难想到还有什么情况让我再去写一遍这个东西——说不定以后要写RTF parser呢，那个时候再说了。</p>
+<h1 id="三-一边看一边练习">三、一边看一边练习</h1>
+<p>有些书就适合这样看，譬如说大家喜闻乐见的《算法导论》。算法导论这本书，是不局限于任何一门语言的（Haskell等除外），也不是在介绍什么API的用法。这种书就不是纯工具，而是包含一些知识是需要你去学习的。你可以抱着一个目标（而不是目的）去看这本书，譬如说你就是想学会怎么用好语言里面提供的各种东西，所以你去学一下怎么开发他们，从各方面了解他们的特点，没有问题。</p>
+<p>就像《算法导论》，光看就不是很合适，你还要去实践。当然我这里的实践，说的不是去做习题，做习题性价比太低。具体问题具体分析，具体到算法导论这本书，我推荐的办法，就是在理解了前面的关于复杂度的计算方法之后，把书里的数据结构的复杂度都背下来，把结构化为图形印在脑子里，最后把所有的伪代码都翻译成C++，写成STL那个样子。至此你的任务就完成了，你什么概念都明白了，以后需要什么细节你不记得了，马上就可以查到。</p>
+<p>同理，《设计模式》和《编译原理》也是一样的。这些书都需要大量的实践来很好的掌握他门，所以你无论如何都得配合至少跟书一样厚的代码来练习。一本书500页，一页100行，也就是5万行而已，不一定够。</p>
+<h1 id="尾声">尾声</h1>
+<p>为什么要写这篇文章呢？很多CS新手都是因为不知道正确的学习方法，吊儿郎当，最后失败的。我觉得至少应该排除这一点干扰因素。如果你从第一天开始就用正确的态度来学习，从来只有好处没有坏处。学习CS，就是坐在电脑前看书写代码，每天8小时，10年过去你肯定已经是高手了，根本就不怕什么面试，Offer随便拿。你们志愿差不多都填了，距离入学还有两个月。如果你们可以跟我当年一样，放假的时候每天早上8点一只蹲到晚上12点，除了编程和生存什么都不干，我相信你们到了第一天开学的时候，至少掌握一门语言的基础知识，写点唬人的代码，已经没有问题了。如果你们可以一直坚持到毕业，至少毕业的时候就不会很难看。</p>
+<p>中国的大学，反正都是乱来的。你们可以适当选择在保证期末及格的前提下，翘几节不重要的课（譬如什么马列毛邓三啊，我很推荐你们读马哲，但是应试就没必要了，先把书背下来，等你们长大了自然就懂了），在宿舍里写代码，就可以增加你们的学习时间，保证一天8个小时。</p>
+<h1 id="坚持7个学期大概一万小时就凑足了-上课的时候可能没办法学习8个小时你可以学习6个小时放假的时候一天学习14个小时平均下来还是每天8个小时然后差不多也到了找工作的时候了保证8000保底">坚持7个学期，大概一万小时就凑足了。上课的时候可能没办法学习8个小时，你可以学习6个小时，放假的时候一天学习14个小时，平均下来还是每天8个小时，然后差不多也到了找工作的时候了，保证8000保底。</h1>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://uiez-github-io.pages.dev/post/dao-di-shi-da-duo-shu-yan-jiu-sheng-mei-you-zhang-wo-dui-fang-fa-huan-shi-shuo-bo-yan-jiu-sheng-ya-li-zhen-de-fei-chang-da/" class="post-title gt-a-link">
+                    到底是大多数研究生没有掌握对方法，还是硕博研究生压力真的非常大？
+                </a>
+            </div>
+        
+
+        
+            <span id="/post/cs-xin-shou-ru-he-yi-zheng-que-de-tai-du-kai-shi-xue-xi/" class="leancloud_visitors" data-flag-title="CS新手如何以正确的态度开始学习">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'C5Yq0ui9hRIfHnzt2ams1I4y-gzGzoHsz',
+		appKey: 'SyIdr6ry1kRbATSC4ubjkdpi',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: 'Welcome to any comments : ) ',
+		visitor: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first"><a href="https://www.exophase.com/user/UIEz/"><img src="https://card.exophase.com/2/0/110620.png?1630379008"></a>   
+
+
+
+
+
+</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/UIE-z" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://twitter.com/UIEz3" target="_blank">
+                    <i class="fab fa-twitter gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="//weibo.com/uiez3" target="_blank">
+                    <i class="fab fa-weibo gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+                <a href="https://www.zhihu.com/people/uiez" target="_blank">
+                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Content support <a href="https://uiez.xyz/post/about" target="_blank">UIEz</a>,
+
+Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://uiez-github-io.pages.dev/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+  hljs.highlightAll()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
